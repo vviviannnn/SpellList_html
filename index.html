@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spells</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="top">
+        <h1> Speaking Like So
+
+
+
+        </h1>
+        <ul>
+            <li><button class="schoolButton" onclick="stateSchool('Any')">Any</button></li>
+            <li><button class="schoolButton" onclick="stateSchool('Abjuration')">Abjuration</button></li>
+            <li><button class="schoolButton" onclick="stateSchool('Conjuration')">Conjuration</button></li>
+            <li><button class="schoolButton" onclick="stateSchool('Divination')">Divination</button></li>
+            <li><button class="schoolButton" onclick="stateSchool('Enchantment')">Enchantment</button></li>
+            <li><button class="schoolButton" onclick="stateSchool('Evocation')">Evocation</button></li>
+            <li><button class="schoolButton" onclick="stateSchool('Illusion')">Illusion</button></li>
+            <li><button class="schoolButton" onclick="stateSchool('Necromancy')">Necromancy</button></li>
+            <li><button class="schoolButton" onclick="stateSchool('Transmutation')">Transmutation</button></li>
+        </ul>
+
+        <ul>
+            <li><button class="lvlButton" onclick="stateLevel('Any')">Any</button></li>
+            <li><button class="lvlButton" onclick="stateLevel('0')">0</button></li>
+            <li><button class="lvlButton" onclick="stateLevel('1')">1</button></li>
+            <li><button class="lvlButton" onclick="stateLevel('2')">2</button></li>
+            <li><button class="lvlButton" onclick="stateLevel('3')">3</button></li>
+            <li><button class="lvlButton" onclick="stateLevel('4')">4</button></li>
+            <li><button class="lvlButton" onclick="stateLevel('5')">5</button></li>
+            <li><button class="lvlButton" onclick="stateLevel('6')">6</button></li>
+            <li><button class="lvlButton" onclick="stateLevel('7')">7</button></li>
+            <li><button class="lvlButton" onclick="stateLevel('8')">8</button></li>
+            <li><button class="lvlButton" onclick="stateLevel('9')">9</button></li>
+            <li><button class="lvlButton" onclick="stateLevel('10')">10</button></li>
+        </ul>
+
+        <ul>
+            <li><button class="archButton" onclick="stateArchetype('Any')">Any</button></li>
+            <li><button class="archButton" onclick="stateArchetype('Artificer')">Artificer</button></li>
+            <li><button class="archButton" onclick="stateArchetype('Bard')">Bard</button></li>
+            <li><button class="archButton" onclick="stateArchetype('Cleric')">Cleric</button></li>
+            <li><button class="archButton" onclick="stateArchetype('Druid')">Druid</button></li>
+            <li><button class="archButton" onclick="stateArchetype('Paladin')">Paladin</button></li>
+            <li><button class="archButton" onclick="stateArchetype('Ranger')">Ranger</button></li>
+            <li><button class="archButton" onclick="stateArchetype('Sorceror')">Sorceror</button></li>
+            <li><button class="archButton" onclick="stateArchetype('Warlock')">Warlock</button></li>
+            <li><button class="archButton" onclick="stateArchetype('Wizard')">Wizard</button></li>
+        </ul>
+        <p id="testID"></p>
+
+        <template>
+            <button class="spellTemplate">Spell: </button>
+        </template>
+
+        <div id="spellHolder"></div>
+        <div class="endpoint">
+            <img src="Ramiel.png" alt="Ramiel" id="RamielPic">
+        </div>
+    </div>
+
+    
+</body>
+</html>
